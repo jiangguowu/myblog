@@ -6,5 +6,13 @@
             "email": "3318632171@qq.com"
         }
     ],
-    "require": {}
+    "require": {},
+"autoload": {
+        "psr-4": {
+	            "ty\\": "src/"
+		            },
+			            "files": [
+				                "src/test.txt"
+						        ]
+							    }
 }
